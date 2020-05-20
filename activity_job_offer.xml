@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcl"
+    android:orientation="vertical"
+    tools:context=".Job_offer">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvjob"
+            android:layout_width="395dp"
+            android:layout_height="715dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Project Assistant Computer Science Engineering Jobs in Chennai\n\n
+1.Company Name:Doodleblue\n\t\t\t\t\t
+                   Chennai, Tamil Nadu\n\nSkills:\n\nExcellent Communication Skills\n\nCan write great reports and polished emails to our international client base\n\nNEED to have the passion to build quality products\nShould have knowledge on Coding.\n\nExperience with development in technologies such as iOS, Android, HTML5/CSS3, Unity 3D, PHP/MySQL. etc\n\nMust have a great engineering mindset and can crack brain teasers and problems easily!\nStrong leadership skills.\n\nExcellent planning and organizational skills.\n\nHands-on SDLC IT project/program management\n\nJob Description:\n\n
+Oversee all aspects of project scope,sprint plan,schedule, resource, risks and overall management to ensure and drive successful delivery.\n\n
+Maintain extensive knowledge and expertise in project management disciplines, as well as multiple business processes and/or technical areas\n\n
+Exposure with various industry PM methodologies including AGILE, SCRUM, RUP, Waterfall, PMI PMBok.\n\n
+Lead IT work streams within Mergers and Acquisitions and IT integrations.\n\n
+Looking for positive.\n\nHIRING Software Developer / Programmer - CSE, IT\n\nCompany name:Sai Education And Job Consultancy
+Chennai, Tamil Nadu\n\nExperience: 0 - 2 years\n\n
+Skills: J2EE Developer, Core Java, JSP, Dotnet, .net, ASP.NET, C#, VB.NET, Php Programmer, PHP Developer.\n\n
+Industry: IT/Computers - Software\n\n
+Functional Area: IT\n\nDelightful Greetings from SAI EDUCATION AND JOB CONSULTANCY - SEJC\n\nDear Job Seekers,\n\nWe are hiring for Diploma / Engineering Graduates freshers for the Leading IT Industries , as part of the expansion plans, we have immediate openings for Java,J2EE, C #, Dot-Net, PHP, Python.\n\nWe are looking for a technology consultants who have very strong knowledge in latest technologies and has real passion in developing cutting edge technology solutions.
+\n\nEligibility Criteria: Diploma / B. E / B. TECH - CSE, IT\n\nYear of Passed Out : 2016, 2017, 2018 and 2019 [ Freshers or min 1 yr Exp ]
+\n\nField : Software developer/ Programmer\n\nWork Location :Chennai\n\nInterested Candidates can contact us or else
+send text in Whats App@ Ph: 9884574999 ;
+\n\nFurther Details, Visit our Office At:\n\nSAI EDUCATION AND JOB CONSULTANCY\n
+No.163 1st floor ,\n Sri Devi Garden Main Road,\n
+Valasaravakkam,\n
+CHENNAI -600 087.\n\n
+"
+            android:textColor="#F2140101"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcl"
+    android:orientation="vertical"
+    tools:context=".News_feed">
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901">
+
+        <TextView
+            android:id="@+id/tvnews1"
+            android:layout_width="385dp"
+            android:layout_height="637dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="The Siemens digital factory twin:\n\n\t Located in a town in
+Bavaria, Germany, the Siemens Electronics Works Amberg manufactures a range of precision
+products like programmable logic controllers and human-machine interfaces. The site is a
+world-class digital factory, pioneering digitalization initiatives to drive efficiencies and
+shorten time to market.\n\n\tIndeed, without increasing the size of the production area –
+10,000 square meters – and with almost no change in staffing levels, the factory has increased
+its production capacity thirteen-fold since it first opened in 1989. These efficiency gains
+have also increased production flexibility, enabling the factory to manufacture over 1000
+product variants per day and one product per second.\n\n\tSiemens Electronics Works Amberg
+continues to pioneer innovations in the digital factory; in 2018 they completed a project with
+NavVis to implement a fully immersive digital twin of the indoor space.\n\n\t“With NavVis
+IndoorViewer, I have my factory in my pocket,” says Thomas Meier, Head of Technology
+Excellence at Siemens Electronics Works.\n\n
+The need for accurate data and documentation:\n\n\tThe challenge with the Siemens Amberg
+factory, as with all modern manufacturing facilities, is to provide multiple stakeholders with
+up-to-the-minute information about the current condition of the site.\n\n\tFactory planners
+need accurate data and context for assembly line relocation projects, whether it’s for initial
+scoping or implementation when tendering the necessary suppliers. Keeping track and accurately
+documenting the multiple incremental shop floor changes to respond to new market demands can
+be incredibly challenging.\n\n\t“We have to continuously relocate machines or assembly
+equipment to other factories,explains Meier.\n\n\tSiemens also regularly invites potential
+customers to visit Amberg, running over 400 factory tours a year. For safety reasons and to
+
+avoid disrupting production schedules, tours are conducted on a balcony above the shop floor.
+With only a birds-eye view of the facility, however, customers don’t have the opportunity to
+take a closer look at specific machines.\n\n\tWe’re doing our guided tours for our visitors
+from the balcony so they can have a full overview of our production,” says Meier.0 “But in
+some cases, it's also necessary to go to the details.\n\nA speedy solution with the NavVis
+M6\n\n\tEnter NavVis. Siemens approached us to investigate how our digital factory solution
+could empower them to build a virtual replica of their factory space, so they could unlock
+greater operational efficiency and improve collaboration between factory stakeholders
+globally. \n\n\tThe first step was to generate a point cloud of their production floor quickly
+and without fuss; the NavVis M6 Indoor Mobile Mapping System was used to scan 10,000 sqm in a
+single day, with minimal interruption to operations.\n\n\tAnd when the team at Siemens saw a
+virtual replica of their facility from within NavVis IndoorViewer, the value of the NavVis
+digital factory solution truly became apparent.\n\n\tCombining accurate point cloud data with
+360 ̊ panoramic images, NavVis IndoorViewer provides an immersive 3D walkthrough; building
+stakeholders can instantly review the “as-is” state of the factory from any web
+browser.\n\nMore efficient assembly planning, factory tours, and more\n\n\tAccording to Thomas
+Meier, Siemens now use their factory digital twin of the Electronics Works Amberg for several
+different use-cases – and are exploring potential applications for the future.
+“In the past, colleagues have to come to me to Amberg and see the production equipment, so
+that they get an overview or an impression how it looks like,” Meier says."
+            android:textColor="#0C0505"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

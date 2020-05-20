@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:orientation="vertical"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".Profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:verticalScrollbarPosition="defaultPosition"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="520dp"
+            android:layout_height="177dp"
+            android:layout_weight="1"
+            android:background="@color/lightblue"
+            android:firstBaselineToTopHeight="105sp"
+            android:text="My Dashboard"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_galary"
+            android:text="Gallary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.35" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_contact"
+            android:text="contact"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_feedback"
+            android:text="feedback"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.556" />
+
+        <Button
+            android:id="@+id/joboffer"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_joboffer"
+            android:text="job offer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.556" />
+
+        <Button
+            android:id="@+id/contrbution"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_contribution"
+            android:text="Contribution"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.35" />
+
+        <Button
+            android:id="@+id/events"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_events"
+            android:text="events"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:layout_marginTop="590dp"
+            android:drawableTop="@drawable/ic_location"
+            android:text="location"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="52dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:baselineAligned="false"
+            android:drawableRight="@drawable/ic_logout2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/newsfeed"
+            android:layout_width="166sp"
+            android:layout_height="97sp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/ic_newsfeed"
+            android:text="News Feed"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jeberson.affinity_allumni">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Connectionbackendless"
+        android:allowBackup="true"
+        android:icon="@drawable/clg_logo"
+        android:label="Affinity Alumni"
+        android:roundIcon="@drawable/clg_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Payment"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Location"
+            android:label="@string/location"/>
+        <activity android:name=".Feedback"
+            android:label="@string/Feedback"/>
+        <activity android:name=".News_feed"
+            android:label="@string/News_feed"/>
+        <activity android:name=".img6" />
+        <activity android:name=".img5" />
+        <activity android:name=".img4" />
+        <activity android:name=".img3" />
+        <activity android:name=".img2" />
+        <activity android:name=".img1" />
+        <activity android:name=".Job_offer"
+            android:label="@string/Joboffer" />
+        <activity android:name=".Login"
+            android:label="@string/Login"/>
+        <activity android:name=".Event"
+            android:label="@string/Events"/>
+        <activity android:name=".Contact"
+            android:label="@string/Contact"/>
+        <activity android:name=".Vision_and_Mission"
+            android:label="@string/Vision_and_Mission"/>
+        <activity android:name=".Registration"
+            android:label="@string/Registration"/>
+        <activity android:name=".Home" />
+        <activity android:name=".Gallery"
+            android:label="@string/Gallery"/>
+        <activity android:name=".Profile"
+            android:label="@string/Profile"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

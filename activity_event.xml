@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcl"
+    android:orientation="vertical"
+    tools:context=".Event">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="772dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="392sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="1.Swachhata Hi Seva Campaign at Western Ghats foot hills Rajapalayam by NSS Volunteers of P.S.R Engineering College. on 02nd Oct'19. \n\n 2.Swachhata Hi Seva Campaign at our College Campus by NSS Volunteers of P.S.R Engineering College. on 01st Oct'19.\n\n3.Swachhata Hi Seva Campaign at our College Campus by NSS Volunteers of P.S.R Engineering College. on 30th Sep'19.\n\n4.Inaguration of Centre of Excellence @ our College on 23rd June'19. \n\n 5.International Yoga Day Celebrated on 21st June'19. \n\n 6.20th College Day Celebrated on 30th Mar'19. \n\n 7.16th Graduation Day Celebrated on 30th Mar'19. \n\n 8.Placement Day - 2019 Celebrated on 29th Mar'19. \n\n 9.Investors Club in Department of Management Studies organized workshop on ‘Export and Import Procedures and Formalities” on 18th Jan'19. \n\n 10.Human Resource Club (HRYTHM) of Management Studies organized workshop on “Translanguaging: The key to effective Language Learning” on 11th Jan'19. \n\n 11.Entrepreneurship Development Cell and Department of Management Studies jointly organized Three Day's Entrepreneurship Awareness Camp (EAC) from 08th to 10th Jan 2019. \n \n"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvevent"
+            app:layout_constraintVertical_bias="0.916" />
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
